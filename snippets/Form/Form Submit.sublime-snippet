@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{!! Form::submit(${1:\$text}, [${2}]) !!}
+]]></content>
+    <tabTrigger>formsubmit</tabTrigger>
+    <scope>text.blade, text.html</scope>
+    <description>{!! Form::submit() !!}</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{!! Form::model(${1:\$user}, [${2}]) !!}
+]]></content>
+    <tabTrigger>formmodel</tabTrigger>
+    <scope>text.blade, text.html</scope>
+    <description>{!! Form::model() !!}</description>
+</snippet>

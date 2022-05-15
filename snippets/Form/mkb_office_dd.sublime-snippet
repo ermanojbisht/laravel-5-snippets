@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+        <div class="col-md-4">
+            <div class="form-group">
+                {{ Form::label('office_id','Select Office Name',[ 'class'=>' required']) }}
+                <select id="office_id" name="office_id" required class="form-select select2">
+                    @foreach ($Offices as $office)
+                    <option value="{{$office->id}}" {{( $acr_office->id == $office->id ? 'selected' : '' )}} > {{$office->name}} </option>
+                    @endforeach
+                </select>
+            </div>
+        </div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mkb_office_dd</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

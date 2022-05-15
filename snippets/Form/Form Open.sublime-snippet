@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{!! Form::open(${1}) !!}
+]]></content>
+    <tabTrigger>formopen</tabTrigger>
+    <scope>text.blade, text.html</scope>
+    <description>{!! Form::open() !!}</description>
+</snippet>

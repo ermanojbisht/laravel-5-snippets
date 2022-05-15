@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+        <div class="col-md-4">
+            <label for='${1:datefield}' class="required "> Edit ${1:datefield} </label>                      
+            <input type="date" name="${1:datefield}" value="{{old('${1:datefield}') ? old('${1:datefield}'):((\$${2:data}->${1:datefield}) ? \$${2:data}->${1:datefield}->format('Y-m-d') : '') }}" required
+                class="form-control" />
+        </div>
+]]></content>    
+    <tabTrigger>mkbdateedit</tabTrigger>
+</snippet>
+
+
+
+
+
+
+
